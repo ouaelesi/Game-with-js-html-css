@@ -1,0 +1,211 @@
+
+
+#car{
+   position: relative;
+   top: 290px;
+   left: 550px;
+   animation: caranim 2s linear infinite;
+}
+#road1{
+   position: relative;
+   top: 335px;
+   left: 285px;
+   margin-right: 132px;
+   animation: rot1 1000s linear infinite ;  
+
+
+}
+
+@keyframes rot1{
+   0%{
+      transform: rotate(-360deg);
+   }
+}
+#road2{
+   position: relative;
+   top: 335px;
+   left: 285px;
+   margin-right: 132px;
+   animation: rot2 3000s linear infinite ;  
+
+
+}
+
+@keyframes rot2{
+   0%{
+      transform: rotate(-360deg);
+   }
+}
+/* @keyframes caranim{
+   0%{
+      transform: translateY(2px);
+   }
+   50%{
+      transform: translateY(-1px);
+   }
+   100%{}
+}; */
+@keyframes roadanim{
+   0%{
+      transform: translateX(200px);
+   }
+   
+}
+#dv{
+   position: absolute;
+   height: 300px;
+   top: 400px;
+   width: 500%;
+   opacity: 60%;
+   display: block;
+   background-image: url(../images/TrafficSafety_29.jpg);
+   background-repeat: repeat-x;
+   animation: divanim 5000s linear infinite;
+}
+@keyframes divanim{
+   100%{
+      transform: translateX(-3400px);
+   }
+}
+#city{
+   position: absolute;
+   height: 250px;
+   top: 150px;
+   width: 500%;
+   display: block;
+   background-image: url(../images/3d-buildings-fond_275-5444.jpg);
+   background-repeat: repeat-x;
+   animation: cityanim 1500s linear infinite;
+
+}
+@keyframes cityanim{
+   100%{
+      transform: translateX(-3400px);
+   }
+}
+#sky{
+   position: absolute;
+   height: 150px;
+   top: 0px;
+   width: 500%;
+   display: block;
+   background-image: url(../images/0c86c9.png);
+   background-repeat: repeat-x;
+   animation: skyanim 1500s linear infinite;
+}
+@keyframes skyanim{
+   100%{
+      transform: translateX(-3400px);
+   }
+}
+
+ #bt2 {
+   position: absolute;
+   top: 460px;
+   left: 100px;
+   height: 40px;
+   width: 150px;
+   margin: 10px;
+   background-color: deepskyblue;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+}
+#bt1 {
+   position: absolute;
+   top: 530px;
+   left: 100px;
+   height: 40px;
+   width: 150px;
+   margin: 10px;
+   background-color: deepskyblue;
+   border: none;border-radius: 20px;
+   cursor: pointer;
+}
+#bt3 {
+   position: absolute;
+   top: 600px;
+   left: 100px;
+   height: 40px;
+   width: 150px;
+   margin: 10px;
+   background-color: deepskyblue;
+   border: none;border-radius: 20px;
+   cursor: pointer;
+   display: none;
+}
+#bt4 {
+   position: absolute;
+   top: 200px;
+   left: 550px;
+   height: 100px;
+   width: 400px;
+   margin: 10px;
+   background-color:#FF4500;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   font-size: 65px;
+   color: snow;
+}
+.down {
+   position: absolute;
+   top: 600px;
+   left: 1300px;
+   height: 40px;
+   width: 50px;
+   margin: 10px;
+   background-color:skyblue;
+   border: none;border-radius: 20px;
+   cursor: pointer;
+}
+.left {
+   position: absolute;
+   top: 550px;
+   left: 1245px;
+   height: 40px;
+   width: 50px;
+   margin: 10px;
+   background-color:skyblue;
+   border: none;border-radius: 20px;
+   cursor: pointer;
+}
+.right {
+   position: absolute;
+   top: 550px;
+   left: 1355px;
+   height: 40px;
+   width: 50px;
+   margin: 10px;
+   background-color:skyblue;
+   border: none;border-radius: 20px;
+   cursor: pointer;
+}
+.up {
+   position: absolute;
+   top: 500px;
+   left: 1300px;
+   height: 40px;
+   width: 50px;
+   margin: 10px;
+   background-color:skyblue;
+   border: none;border-radius: 20px;
+   cursor: pointer;
+}
+#welcom{
+   position:absolute;
+   top: 25px;
+  left: 500px ; 
+   font-size: 50px;
+   font: bolder;
+   display:block ; 
+}
+#fire{
+   position: absolute;
+   transform: rotate(90deg);
+   height: 80px;
+   width: 50px;
+   top: 450px;
+   left: 515px;
+   display: none;
+}
