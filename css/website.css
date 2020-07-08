@@ -141,12 +141,15 @@
    height: 100px;
    width: 400px;
    margin: 10px;
-   background-color:#FF4500;
+   background : linear-gradient(45deg,#FF8A01,#E52F71);
    border: none;
    border-radius: 50px;
    cursor: pointer;
    font-size: 65px;
    color: snow;
+}
+#bt4:hover{
+   background : linear-gradient(45deg,#FF8A1,#E52F91);
 }
 .down {
    position: absolute;
@@ -208,4 +211,7 @@
    top: 450px;
    left: 515px;
    display: none;
+}
+button {
+   outline-width: 0;
 }
